@@ -56,19 +56,25 @@ UserDefaults.standard.set(Array(favorites), forKey: "favorites")
 
 ## 📸 Ekran Görüntüleri
 
-<h3 align="center"> Kullanıcılar Ekranı </h3>
+<h3 align="center"> 1. Kullanıcılar Ekranı </h3>
 <p align="center">
-  <img src="images/users-list.png" width="350" />
+  <img src="images/users-list.png" width="300" />
 </p>
 
-2. **Detay Görünümü**  
-   ![User Detail](images/user-detail.png)
+<h3 align="center"> 2. Detay Görünümü </h3>
+<p align="center">
+  <img src="images/user-detail.png" width="300" />
+</p>
 
-3. **Favoriler Listesi**  
-   ![Favorites](images/favorites-list.png)
+<h3 align="center"> 3. Favoriler Listesi </h3>
+<p align="center">
+  <img src="images/favorites-list.png" width="300" />
+</p>
 
-4. **Boş Favori Ekranı**  
-   ![Empty Favorites](images/empty-favorites.png)
+<h3 align="center"> 4. Boş Favoriler Ekranı </h3>
+<p align="center">
+  <img src="images/empty-favorites.png" width="300" />
+</p>
 
 ---
 
