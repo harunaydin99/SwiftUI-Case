@@ -56,8 +56,10 @@ UserDefaults.standard.set(Array(favorites), forKey: "favorites")
 
 ## 📸 Ekran Görüntüleri
 
-1. **Kullanıcılar Listesi**  
-   ![Users List](images/users-list.png)
+<h3 align="center">📱 Kullanıcılar Ekranı</h3>
+<p align="center">
+  <img src="resimler/users-screen.png" width="350" />
+</p>
 
 2. **Detay Görünümü**  
    ![User Detail](images/user-detail.png)
