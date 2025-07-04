@@ -56,9 +56,9 @@ UserDefaults.standard.set(Array(favorites), forKey: "favorites")
 
 ## 📸 Ekran Görüntüleri
 
-<h3 align="center">📱 Kullanıcılar Ekranı</h3>
+<h3 align="center"> Kullanıcılar Ekranı </h3>
 <p align="center">
-  <img src="resimler/users-screen.png" width="350" />
+  <img src="images/users-list.png" width="350" />
 </p>
 
 2. **Detay Görünümü**  
