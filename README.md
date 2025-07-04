@@ -3,7 +3,6 @@
 
 SwiftUI ile geliştirilen bu örnek uygulama, kullanıcı listesini bir public API üzerinden çekerek arama, detay görüntüleme ve favorilere ekleme/çıkarma özelliklerini barındırır. Proje, modern iOS uygulama geliştirme prensiplerini baz alarak MVVM mimarisiyle oluşturulmuştur.
 
-![Uygulama Ana Ekran](resimler/users-screen.png)
 
 ---
 
@@ -57,7 +56,7 @@ UserDefaults.standard.set(Array(favorites), forKey: "favorites")
 ## 📸 Ekran Görüntüleri
 
 <h3 align="center"> 1. Kullanıcılar Ekranı </h3>
-<p align="center">
+<p align="left">
   <img src="images/users-list.png" width="300" />
 </p>
 
