@@ -33,18 +33,29 @@ final class UsersViewModel: ObservableObject {
     }
 
     func loadUsers() {
-        UserService.shared.fetchUsers { [weak self] result in
+      /*  UserService.shared.fetchUsers { [weak self] result in
             switch result {
             case .success(let users):
                 self?.allUsers = users
             case .failure(let error):
                 print("Hata: \(error.localizedDescription)")
             }
+        }*/
+        NetworkManager.shared.fetchUsers { result in
+            switch result {
+            case .success(let users):
+                DispatchQueue.main.async {
+                    self.allUsers = users
+                }
+            case .failure(let error):
+                print("Hata: \(error.localizedDescription)")
+                }
+            }
         }
-    }
+    
 
     func toggleFavorite(for user: User) {
-        print("favroiriye tıklandı")
+       // print("favroiriye tıklandı")
         if favorites.contains(user.id) {
             favorites.remove(user.id)
         } else {

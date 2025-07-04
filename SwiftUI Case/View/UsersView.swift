@@ -8,15 +8,6 @@
 import SwiftUI
 
 // MARK: - Users View
-//
-//  UsersView.swift
-//  SwiftUI Case
-//
-//  Created by Harun AYDIN on 30.06.2025.
-//
-
-import SwiftUI
-
 struct UsersView: View {
     @EnvironmentObject var viewModel: UsersViewModel
 

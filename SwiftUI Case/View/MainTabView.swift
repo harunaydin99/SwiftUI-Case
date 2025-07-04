@@ -24,6 +24,7 @@ struct MainTabView: View {
                     Label("Favoriler", systemImage: "star.fill")
                 }
         }
+        .accentColor(Color("tabBarItemColor"))
     }
 }
 
