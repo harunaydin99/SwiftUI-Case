@@ -57,22 +57,22 @@ UserDefaults.standard.set(Array(favorites), forKey: "favorites")
 
 <h3 align="left"> 1. Kullanıcılar Ekranı </h3>
 <p align="left">
-  <img src="images/users-list.png" width="300" />
+  <img src="images/users-list.png" width="270" />
 </p>
 
 <h3 align="left"> 2. Detay Görünümü </h3>
 <p align="left">
-  <img src="images/user-detail.png" width="300" />
+  <img src="images/user-detail.png" width="270" />
 </p>
 
 <h3 align="left"> 3. Favoriler Listesi </h3>
 <p align="left">
-  <img src="images/favorites-list.png" width="300" />
+  <img src="images/favorites-list.png" width="270" />
 </p>
 
 <h3 align="left"> 4. Boş Favoriler Ekranı </h3>
 <p align="left">
-  <img src="images/empty-favorites.png" width="300" />
+  <img src="images/empty-favorites.png" width="270" />
 </p>
 
 ---

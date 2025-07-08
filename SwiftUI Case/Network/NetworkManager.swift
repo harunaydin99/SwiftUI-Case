@@ -45,7 +45,7 @@ final class NetworkManager {
             // JSON veriyi decode et
             do {
                 let decoded = try JSONDecoder().decode(T.self, from: data)
-                DispatchQueue.main.async {
+                DispatchQueue.main.async {                               // ViewModel'ler @Published değişkenleri main thread'de günceller; o yüzden completion blokları main'e alınmıştır.
                     completion(.success(decoded))
                 }
             } catch let decodeError {
