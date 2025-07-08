@@ -35,7 +35,7 @@ extension Endpoint: EndpointProtocol {
     
     // Temel URL (her endpoint bu domain üzerinden çalışacak)
     var baseURL: String {
-        return "https://jsonplaceholder.typicode.com"
+        return Constants.baseURL
     }
 
     // Her bir endpoint’e özel path

@@ -1,7 +1,7 @@
 
 # 👤 UserFavoritesApp
 
-SwiftUI ile geliştirilen bu örnek uygulama, kullanıcı listesini bir public API üzerinden çekerek arama, detay görüntüleme ve favorilere ekleme/çıkarma özelliklerini barındırır. Proje, modern iOS uygulama geliştirme prensiplerini baz alarak MVVM mimarisiyle oluşturulmuştur.
+SwiftUI ile geliştirilen bu örnek uygulama, kullanıcı listesini bir public API üzerinden çekerek arama, detay görüntüleme ve favorilere ekleme/çıkarma özelliklerini barındırır. Proje, modern iOS uygulama geliştirme prensiplerini baz alarak MVVM mimarisiyle oluşturulmuştur. Dark mode desteği sunulmaktadır.
 
 
 ---
@@ -84,6 +84,3 @@ UserDefaults.standard.set(Array(favorites), forKey: "favorites")
 - Swift 5.7+
 
 ---
-
-
-> Bu proje bir teknik değerlendirme kapsamında hazırlanmıştır.

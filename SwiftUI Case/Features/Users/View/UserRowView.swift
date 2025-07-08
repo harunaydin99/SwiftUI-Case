@@ -46,7 +46,7 @@ struct UserRowView: View {
 }
 
 #Preview {
-    UserRowView(user: User(
+    UserRowView(user: User(      // preview için mock data kullanıyoruz
         id: 1,
         name: "Leanne Graham",
         username: "Bret",

@@ -13,17 +13,6 @@ struct UsersView: View {
 
     var body: some View {
         NavigationView {
-          /*  List(viewModel.filteredUsers) { user in
-                NavigationLink(destination: UserDetailView(user: user)) {
-                    UserRowView(
-                        user: user,
-                        isFavorite: viewModel.isFavorite(user: user),
-                        onToggleFavorite: {
-                            viewModel.toggleFavorite(for: user)
-                        }
-                    )
-                }
-            }*/
             List(viewModel.filteredUsers) { user in
                 NavigationLink {
                     UserDetailView(user: user)
