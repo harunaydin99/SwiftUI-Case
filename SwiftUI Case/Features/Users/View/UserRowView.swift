@@ -28,9 +28,15 @@ struct UserRowView: View {
             VStack(alignment: .leading, spacing: 4) {
                 Text(user.name)
                     .font(.headline)
+                    .lineLimit(1)
+                    .truncationMode(.tail)
+
                 Text(user.email)
                     .font(.subheadline)
                     .foregroundColor(.gray)
+                    .lineLimit(1) // sadece 1 satır göster
+                    .truncationMode(.middle) // uzun mail adresleri için ortadan kes
+                    .minimumScaleFactor(0.8) // çok uzun olursa küçült
             }
 
             Spacer()
